@@ -4,6 +4,13 @@ import "./globals.css";
 import NavbarComponent from "@/components/Navbar/Navbar";
 import { Inter } from 'next/font/google';
 
+import { Space_Grotesk } from 'next/font/google';
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-space-grotesk',
+});
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter', 
@@ -33,7 +40,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className = {`${inter.variable} ${geistSans.variable} ${geistMono.variable}` }
-        style={{ fontFamily: 'DT_Grotesk_Display' }}
+        style={{ fontFamily: 'Space Gortesk' }}
       >
         <NavbarComponent/>
         {children}

@@ -1,12 +1,12 @@
 import { ChevronDown } from 'lucide-react';
 import './Navbar.css';
 import Link from 'next/link';
-import ugacLogo from '../../public/ugac.png'
+import ugacLogo from '../../public/images/ugac.png'
 import Image from 'next/image';
 
 const NavbarComponent = () => {
   return (
-    <nav className="flex items-center justify-between px-50 bg-[#191b22] text-white">
+    <nav style={{fontFamily:"DT_Grotesk_Display"}} className="flex items-center justify-between px-50 bg-[#191b22] text-white">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <div>
