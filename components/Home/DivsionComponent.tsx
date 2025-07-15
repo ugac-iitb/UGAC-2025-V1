@@ -5,7 +5,7 @@ import Link from 'next/link';
 const DivisonComponent = () => {
     return ( 
         <>
-            <section className='bg-gradient-to-b from-[#05283e] to-[#021e30] text-white'>
+            <section className=' text-white'>
                 <div className="flex flex-col items-center justify-center py-16">
                     <h2 style={{fontFamily:"DT_Grotesk_Display"}} className="text-3xl md:text-5xl font-bold mb-4">
                         Our Divisions

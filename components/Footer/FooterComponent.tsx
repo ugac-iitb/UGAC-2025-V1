@@ -1,33 +1,54 @@
-import { Facebook, Instagram, Twitter, Phone, Mail } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Phone, Mail, LinkedinIcon } from 'lucide-react';
+import UGACLogo from '../../public/images/ugac.png';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const FooterComponent = () => {
     return ( 
         <>
-            <footer className="bg-[#021e30] text-white py-6 text-center text-sm px-4">
-      {/* Social + Contact Icons */}
-      <div className="flex flex-wrap justify-center items-center gap-6 mb-4 text-base">
-        <a href="https://facebook.com" target="_blank" className="flex items-center gap-1 hover:text-blue-400 transition">
-          <Facebook size={18} /> Facebook
-        </a>
-        <a href="https://instagram.com" target="_blank" className="flex items-center gap-1 hover:text-pink-400 transition">
-          <Instagram size={18} /> Instagram
-        </a>
-        <a href="https://twitter.com" target="_blank" className="flex items-center gap-1 hover:text-sky-400 transition">
-          <Twitter size={18} /> Twitter
-        </a>
-        <a href="tel:8128679781" className="flex items-center gap-1 hover:text-green-400 transition">
-          <Phone size={18} /> 8128679781
-        </a>
-        <a href="mailto:gsectech@iitb.ac.in" className="flex items-center gap-1 hover:text-red-400 transition">
-          <Mail size={18} /> gsectech@iitb.ac.in
-        </a>
-      </div>
+          <footer style={{ fontFamily: 'Playfair Display' }} className="bg-[#fca311] text-[#14213d] px-4 pb-10 mt-30">
+            {/* Social + Contact Icons */}
+            <div className='space-y-4 mx-40'>
+                <div className='grid grid-cols-1 md:grid-cols-2  text-[#14213d] text-2xl border-b-2 border-[#14213d] pb-5'>
+                {/* <div className='flex items-center space-x-4'>
+                  <Mail size={40} />
+                  <span >abd@gmail.com</span> 
+                </div>
+                <div className='flex justify-end items-center space-x-4'>
+                  <Phone size={40} />
+                  <span>+91 1234567890</span>
+                </div> */}
 
-      {/* Credits */}
-      <p className="text-white text-sm">
-        Developed by <span className="font-semibold">UGAC Web Team</span> with <span className="text-red-500">❤️</span>
-      </p>
-    </footer>
+                <div className='flex items-center space-x-4 mt-5'>
+                  <Image 
+                    src={UGACLogo}
+                    alt="UGAC Logo"
+                    width={140}
+                    height={140}
+                  />
+                </div>
+                {/* <div className='flex justify-end items-center space-x-4'>
+                  <Phone size={40} />
+                  <span>+91 1234567890</span>
+                </div> */}
+
+                <div className='flex justify-end items-center space-x-4 mt-5'>
+                  <Link href={"https://mail.google.com"}> <Instagram size={40}/></Link>
+                  <Link href={"https://mail.google.com"}> <Facebook size={40}/></Link>
+                  <Link href={"https://mail.google.com"}> <Mail  size={40}/></Link>
+                  <Link href={"https://mail.google.com"}> <Phone  size={40}/></Link>
+                  
+                </div>
+              </div>
+              
+
+              {/* Credits */}
+              <p className="text-[18px] my-5">
+                Developed by <span className="font-semibold">UGAC Web Team</span> with <span className="text-red-500">❤️</span>
+              </p>
+            </div>
+            
+          </footer>
         </>
     );
 }

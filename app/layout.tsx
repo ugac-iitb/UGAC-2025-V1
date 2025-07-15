@@ -5,6 +5,7 @@ import NavbarComponent from "@/components/Navbar/Navbar";
 import { Inter } from 'next/font/google';
 
 import { Space_Grotesk } from 'next/font/google';
+import FooterComponent from "@/components/Footer/FooterComponent";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -41,9 +42,11 @@ export default function RootLayout({
       <body
         // className = {`${inter.variable} ${geistSans.variable} ${geistMono.variable}` }
         style={{ fontFamily: 'Space Gortesk' }}
+        className="bg-[#14213d]"
       >
         <NavbarComponent/>
         {children}
+        <FooterComponent/>
       </body>
     </html>
   );

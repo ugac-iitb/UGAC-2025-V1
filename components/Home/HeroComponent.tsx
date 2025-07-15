@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const HeroComponent = () => {
     return ( 
         <>
-            <section className="flex flex-col items-center justify-center bg-gradient-to-b from-[#0a3f60] to-[#083048] text-white text-center px-4 py-30 md:pb-50 md:pt-40">
+            <section className="flex flex-col items-center justify-center text-white text-center px-4 py-30 md:pb-50 md:pt-40">
                 {/* Tagline */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -17,7 +17,7 @@ const HeroComponent = () => {
 
                 {/* Heading */}
                 <motion.h1
-                    style={{ fontFamily: 'DT_Grotesk_Display' }}
+                    style={{ fontFamily: 'Playfair Display' }}
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.4 }}
