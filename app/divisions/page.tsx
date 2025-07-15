@@ -1,10 +1,10 @@
 import DivisionGridComponent from "@/components/Divisions/DivisionsGridComponent";
-import HeroComponent from "@/components/Divisions/heroComponent";
+import HeroComponent from "@/components/general/HeroComponent";
 
 const Divisions = () => {
     return ( 
         <>
-            <HeroComponent />
+            <HeroComponent data={{heading:"Divisions"}}/>
             <DivisionGridComponent />
         </>
 

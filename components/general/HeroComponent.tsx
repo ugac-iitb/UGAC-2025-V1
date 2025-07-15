@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Star, Book, BookOpenCheck } from 'lucide-react';
 
-const HeroComponent = () => {
+const HeroComponent = ({data}) => {
   return (
     <section className="relative overflow-hidden flex flex-col items-center justify-center w-[80%] mx-auto mt-10 text-white text-center px-4 py-32 md:pb-48 md:pt-40 border-b-3 border-[#fca311]">
       
@@ -62,15 +62,25 @@ const HeroComponent = () => {
       </motion.div>
 
       {/* === Main Heading === */}
-      <motion.h1
+      {data.heading && (<motion.h1
         style={{ fontFamily: 'Playfair Display' }}
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.4 }}
         className="text-[36px] md:text-7xl lg:text-8xl font-extrabold leading-tight tracking-tight"
       >
-        Divisions
-      </motion.h1>
+        {data.heading}
+      </motion.h1>)}
+
+      {data.subheading && (<motion.h3
+        // style={{ fontFamily: 'Playfair Display' }}
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.4 }}
+        className="text-[24px] md:text-3xl lg:text-4xl text-[#fca311] leading-tight tracking-tight mt-5"
+      >
+        {data.subheading}
+      </motion.h3>)}
 
     </section>
   );

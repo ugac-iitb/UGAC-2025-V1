@@ -1,12 +1,11 @@
-import HeroComponent from "@/components/Team/HeroComponent";
+import HeroComponent from "@/components/general/HeroComponent";
 import teamData from '../../public/data/team.json';
-import TeamCardsComponent from "@/components/Team/TeamCardsComponent";
 import TeamGridComponent from "@/components/Team/TeamGridComponent";
 
 const Team = () => {
     return ( 
         <div className="bg-[#14213d]">
-            <HeroComponent/>
+            <HeroComponent data={{heading:"Our Team"}}/>
             <TeamGridComponent teamData={teamData}/>
         </div>
     );
