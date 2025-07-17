@@ -1,7 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import data from '../../public/data/divisions.json';
+import data from '../../public/data/clubs.json';
 import DivisionCardsComponent from './DivisionCardsComponent';
 
 const ScrollComponent = () => {

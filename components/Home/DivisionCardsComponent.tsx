@@ -13,19 +13,20 @@ const DivisionCardsComponent = ({ data }) => {
       `}
     >
       {/* Image Section */}
-      <div className="relative w-full h-[230px] border-b-4 border-[#fca311] rounded-t-xl overflow-hidden">
-        <Link href={`/divisions/${data.slug}`} className="absolute inset-0 flex items-center justify-center">
+     <div className="relative w-full h-[230px] overflow-hidden">
+        <Link href={`/divisions/${data.club_id}`} className="absolute inset-0 flex items-center justify-center">
           <Image
-            src={data.logo}
-            alt={data.name}
+            src={`/images/clubs/${data.club_id}.png`}
+            alt={data.club_name}
             fill
-            className="object-cover rounded-t-xl filter brightness-0 invert"
+            className="object-contain rounded-t-xl p-6"
           />
+
         </Link>
       </div>
 
       {/* Always-visible Content Section */}
-      <div
+      {/* <div
         className={`
           w-full px-4 py-3 bg-[#fca311] text-[#14213d] 
           rounded-b-xl
@@ -35,7 +36,7 @@ const DivisionCardsComponent = ({ data }) => {
           {data.name}
         </h2>
         <p className="text-sm">{data.description}</p>
-      </div>
+      </div> */}
     </div>
   );
 };

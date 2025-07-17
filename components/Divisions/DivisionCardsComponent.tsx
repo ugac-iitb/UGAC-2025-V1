@@ -21,13 +21,14 @@ const DivisionCardsComponent = ({ data }) => {
     >
       {/* Image */}
       <div className="relative w-full h-[230px] border-b-4 border-[#fca311] rounded-t-xl overflow-hidden">
-        <Link href={`/divisions/${data.slug}`} className="absolute inset-0 flex items-center justify-center">
+        <Link href={`/divisions/${data.club_id}`} className="absolute inset-0 flex items-center justify-center">
           <Image
-            src={data.logo}
-            alt={data.name}
+            src={`/images/clubs/${data.club_id}.png`}
+            alt={data.club_name}
             fill
-            className="object-cover rounded-t-xl filter brightness-0 invert"
+            className="object-contain rounded-t-xl p-6"
           />
+
         </Link>
       </div>
 
@@ -36,12 +37,12 @@ const DivisionCardsComponent = ({ data }) => {
           absolute left-0 top-[230px] w-full 
           px-4 py-3 bg-[#fca311] text-[#14213d] 
           rounded-b-xl transition-all duration-200 
-          ${hovered ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'} 
+          ${hovered ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'} 
           overflow-hidden
         `}
       >
-        <h2 style={{fontFamily:"Playfair Display"}} className="text-[24px] font-semibold">{data.name}</h2>
-        <p className="text-sm ">{data.description}</p>
+        <h2 style={{fontFamily:"Playfair Display"}} className="text-[24px] font-semibold">{data.club_name}</h2>
+        <p className="text-sm ">{data.short_description}</p>
       </div>
     </div>
   );

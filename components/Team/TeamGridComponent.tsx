@@ -1,28 +1,70 @@
-import TeamCardsComponent from "./TeamCardsComponent";
+'use client';
+import TeamCardsComponent from './TeamCardsComponent';
 
-const TeamGridComponent = ({ teamData }) => {
+const fallbackImage = '/images/temp.png';
+
+const TeamGridComponent = ({ teamData }: { teamData: any[] }) => {
+  if (!teamData || teamData.length === 0) return null;
+
+  // Preprocess and clean the data
+  const cleanedData = teamData
+    .filter(person => person?.name && person?.position) // skip empty
+    .map(person => ({
+      ...person,
+      name: person.name.trim(),
+      position: person.position.trim(),
+    }));
+
+  if (cleanedData.length === 0) return null;
+
+  const firstPerson = cleanedData[0];
+  const nextFour = cleanedData.slice(1, 5);
+  const remaining = cleanedData.slice(5);
+
+  const transformData = (person: any) => {
+  const trimmedName = person.name.trim();
+  return {
+    name: trimmedName,
+    image: `/images/team/${trimmedName}.png`,
+    role: person.position.trim(),
+    linkedin: person.linkedin?.trim() || '',
+    email: person.email?.trim() || '',
+  };
+};
+
   return (
-    <div className="space-y-10 mt-40">
-      {/* First Row: 1 card */}
-      <div className="grid grid-cols-1 place-items-center gap-6">
-        {teamData.slice(0, 1).map((member, index) => (
-          <TeamCardsComponent key={index} data={member} />
-        ))}
+    <div className="space-y-24 px-4 sm:px-6 lg:px-20 py-16">
+      {/* First Person Section */}
+      <div className="space-y-10">
+        {/* <h2 className="text-white text-4xl font-bold text-center">Head</h2> */}
+        <div className="flex justify-center">
+          <TeamCardsComponent data={transformData(firstPerson)} />
+        </div>
       </div>
 
-      {/* Second Row: 3 cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
-        {teamData.slice(1, 4).map((member, index) => (
-          <TeamCardsComponent key={index + 1} data={member} />
-        ))}
-      </div>
+      {/* Next Four Section */}
+      {nextFour.length > 0 && (
+        <div className="space-y-10">
+          {/* <h2 className="text-white text-4xl font-bold text-center border-t-2 pt-6 border-[#fca311]">Core Team</h2> */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-x-10 gap-y-12 justify-items-center">
+            {nextFour.map((person, idx) => (
+              <TeamCardsComponent key={idx} data={transformData(person)} />
+            ))}
+          </div>
+        </div>
+      )}
 
-      {/* Third Row: 4 cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
-        {teamData.slice(4, 8).map((member, index) => (
-          <TeamCardsComponent key={index + 4} data={member} />
-        ))}
-      </div>
+      {/* Remaining Section */}
+      {remaining.length > 0 && (
+        <div className="space-y-10">
+          {/* <h2 className="text-white text-4xl font-bold text-center border-t-2 pt-6 border-[#fca311]">Team Members</h2> */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 justify-items-center">
+            {remaining.map((person, idx) => (
+              <TeamCardsComponent key={idx} data={transformData(person)} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

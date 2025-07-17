@@ -23,16 +23,17 @@ const AboutUsComponent = () => {
                     </motion.h1>
 
                     <p className=" mb-8 text-[24px] mt-13">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim arcu cursus tincidunt et odio enim aliquam. Gravida augue arcu duis
+                        The Undergraduate Academic Council (UGAC) of IIT Bombay is a student-led body dedicated to strengthening the academic framework of the institute. UGAC works in close collaboration with the administration to formulate and enhance academic policies that reflect student perspectives and uphold institutional excellence. It strives to cultivate a supportive, transparent, and forward-thinking academic environment across the campus.
+
                     </p>
 
                     {/* Buttons */}
                     <div className="flex flex-wrap gap-4 mb-8">
-                        <button
+                        {/* <button
                             className="bg-[#191b22] text-white text-xl font-medium py-3 px-6 rounded-full shadow cursor-pointer hover:bg-[#2c2f3a] active:scale-95 transition transform duration-200"
                         >
                             Learn More
-                        </button>
+                        </button> */}
 
                     </div>
 

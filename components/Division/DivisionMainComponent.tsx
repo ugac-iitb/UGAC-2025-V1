@@ -3,6 +3,11 @@ import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 import OverviewComponent from './OverviewComponent';
+import resources from '../../public/data/resources.json'
+import ResourcesComponent from './ResourcesComponent';
+import clubHeads from '../../public/data/club_heads.json'
+import clubConv from '../../public/data/club_conveners.json'
+import ContactComponent from './ContactComponent';
 
 const categories = [
   { name: 'Overview', id: 1 },
@@ -10,23 +15,29 @@ const categories = [
   { name: 'Resources', id: 3 },
 ];
 
-const DivisionMainComponent = ({ clubData }) => {
+const DivisionMainComponent = ({ clubData,id }) => {
   const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
+  const filteredResources = resources.filter((val) => val.club_id == id);
+  const filteredClubHeads = clubHeads.filter((val) => val.club_id == id);
+  const filteredClubConveners = clubConv.filter((val) => val.club_id == id);
+
+  console.log(filteredClubConveners);
+  console.log(filteredClubHeads)
 
   return (
     <div className="flex flex-col md:flex-row gap-8 px-6 md:px-20 py-10 w-full text-white items-start mb-20">
       {/* Sidebar */}
       <div className="w-full md:w-[30%]">
         {/* Logo */}
-        <div className="flex justify-center items-center">
-          <Image
-            src={clubData.logo}
-            alt={clubData.name}
-            height={340}
-            width={340}
-            className="h-40 w-40 md:h-[300px] md:w-auto rounded-lg mb-6 filter brightness-0 invert"
-          />
-        </div>
+       <div className="w-full aspect-square relative mb-6">
+        <Image
+          src={`/images/clubs/${clubData.club_id}.png`}
+          alt={clubData.club_name}
+          fill
+          className="object-contain p-6 pt-0"
+        />
+      </div>
+
 
         {/* Category Buttons */}
         <div className="flex flex-col gap-4 bg-[#2c3e5c] p-6 rounded-2xl">
@@ -47,21 +58,21 @@ const DivisionMainComponent = ({ clubData }) => {
       </div>
 
       {/* Content Area */}
-      <div className="flex-1 flex flex-col gap-4 pt-10">
+      <div className="flex-1 flex flex-col gap-4 pt-0">
         <div className="bg-[#2c3e5c] rounded-xl overflow-hidden p-6">
           {selectedCategory === 1 && (
-            <OverviewComponent overview={clubData.description} />
+            <OverviewComponent overview={clubData.description} linkedin={clubData.linkedin} instagram={clubData.Instagram} mail={clubData.mail}/>
           )}
           {selectedCategory === 2 && (
             <div>
-              <h2 className="text-2xl font-semibold">People Section</h2>
-              <p>Content for People goes here.</p>
+              {/* <h2 className="text-2xl font-semibold">People Section</h2> */}
+              <ContactComponent clubHeads={filteredClubHeads} clubConveners={filteredClubConveners}/>
             </div>
           )}
           {selectedCategory === 3 && (
             <div>
-              <h2 className="text-2xl font-semibold">Resources Section</h2>
-              <p>Content for Resources goes here.</p>
+              <h2 className="text-2xl font-semibold">Resources</h2>
+              <ResourcesComponent filteredResources={filteredResources}/>
             </div>
           )}
         </div>

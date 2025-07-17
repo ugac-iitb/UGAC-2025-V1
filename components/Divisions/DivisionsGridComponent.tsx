@@ -1,6 +1,6 @@
 import DivisionCardsComponent from "./DivisionCardsComponent";
 
-import DivisionData from '../../public/data/divisions.json';
+import DivisionData from '../../public/data/clubs.json';
 
 const DivisionGridComponent = () => {
     return ( 

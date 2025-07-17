@@ -1,32 +1,162 @@
 [
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "Kartik Shilpi Singhal",
+        "position": "General Secretary, Academic Affairs(UG)",
+        "linkedin": "https://www.linkedin.com/in/thekartiksinghal/",
+        "email": "gsecaaug@iitb.ac.in",
+        "contact": "",
+        "photo": ""
     },
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "",
+        "position": "",
+        "linkedin": "",
+        "email": "",
+        "contact": "",
+        "photo": ""
     },
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "Avani Gala",
+        "position": "Institute Secretary, Academic Affairs and Head, Student Support Services",
+        "linkedin": "https://www.linkedin.com/in/avani-gala-ba12b0222/",
+        "email": "isaa.sss.iitb@gmail.com",
+        "contact": "8657424350",
+        "photo": "https://drive.google.com/file/d/1DEGqUyjJZcmHcswr3T6oppF-z5le1Lf_/view?usp=sharing"
     },
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "Parv Khandelwal",
+        "position": "Institute Secretary, Academic Affairs and Head, Career\u00a0Cell",
+        "linkedin": "https://www.linkedin.com/in/parv-khandelwal-iitb/",
+        "email": "isaa.careercell.iitb@gmail.com",
+        "contact": "8302649745",
+        "photo": "https://drive.google.com/file/d/1wmXu-O8mBBBDp7jr5TN1BDVr9VvZfBGP/view?usp=sharing"
     },
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "Dev Arora",
+        "position": "Institute Secretary, Academic Affairs and Head, EnPoWER",
+        "linkedin": "www.linkedin.com/in/dev-arora-b5857731b",
+        "email": "isaa.enpower.iitb@gmail.com",
+        "contact": "8218705411",
+        "photo": "https://drive.google.com/file/d/1DtmD5OOqeG1Y2msXgGcxoGjtKDZ2tpy-/view?usp=sharing"
     },
     {
-        "name":"Kartik Singhal",
-        "role":"President",
-        "image":"/images/team/1.jpeg"
+        "name": "Rupanshi Vijayvargiya ",
+        "position": "Institute Secretary, Academic Affairs and Head, EnPoWER",
+        "linkedin": "https://www.linkedin.com/in/rupanshi-vijayvargiya-970a18287/",
+        "email": "isaa.enpower.iitb@gmail.com",
+        "contact": "9301891196",
+        "photo": "https://drive.google.com/open?id=1zurxS6WULRxjDBYuiMQuVrU2qjrQbTjD"
+    },
+    {
+        "name": "",
+        "position": "",
+        "linkedin": "",
+        "email": "",
+        "contact": "",
+        "photo": ""
+    },
+    {
+        "name": "Aryan Kashyap",
+        "position": "Manager, Analytics Club",
+        "linkedin": "https://www.linkedin.com/in/aryan-kshyp/",
+        "email": "manager.analytics.iitb@gmail.com",
+        "contact": "6206443759",
+        "photo": "https://drive.google.com/file/d/1O2SmG9AI1FhFDnap2uoGdUEFdUVpQetG/view?usp=sharing"
+    },
+    {
+        "name": "Anjali Jangid",
+        "position": "Manager, Consult Club",
+        "linkedin": "https://www.linkedin.com/in/anjali-jangid-68326229b/",
+        "email": "manager.consultclub.iitb@gmail.com",
+        "contact": "8005540470",
+        "photo": "https://drive.google.com/file/d/1pBqtEyCs8sx9m56eoedz2MTu6hiit795/view?usp=drivesdk"
+    },
+    {
+        "name": "Kopal Goel",
+        "position": "Manager, Finance Club",
+        "linkedin": "https://www.linkedin.com/in/kopal-goel-010064294/",
+        "email": "manager.finance.iitb@gmail.com",
+        "contact": "7022004676",
+        "photo": "https://drive.google.com/file/d/1NBGgSKKS_dV975X_H1GT63NpV9FqmaTQ/view?usp=sharing"
+    },
+    {
+        "name": "Ritwik Raghav",
+        "position": "Manager, Finance Club",
+        "linkedin": "https://www.linkedin.com/in/ritwik-raghav-019215291/",
+        "email": "manager.finance.iitb@gmail.com",
+        "contact": "7400290708",
+        "photo": "https://drive.google.com/open?id=1vMBDYmOPOYpxOPSQ4UD4aTB8yRuHPP5E"
+    },
+    {
+        "name": "",
+        "position": "",
+        "linkedin": "",
+        "email": "",
+        "contact": "",
+        "photo": ""
+    },
+    {
+        "name": "Ved Parulekar",
+        "position": "President, Consulting Core Group",
+        "linkedin": "https://www.linkedin.com/in/ved-parulekar-8ab221283/",
+        "email": "presidentccg1@gmail.com",
+        "contact": "9076120357",
+        "photo": "https://drive.google.com/file/d/1i4qhLn5DqPhuKiuh35W-1ErNPzgHKWoC/view?usp=sharing"
+    },
+    {
+        "name": "Atharva Mittal",
+        "position": "Fund Manager, Investment Team",
+        "linkedin": "https://www.linkedin.com/in/atharva-mittal-374b74251/",
+        "email": "investmentteam.ugac.iitb@gmail.com",
+        "contact": "9068810364",
+        "photo": "https://drive.google.com/file/d/1gBsXfVEFshsrXfzduURfK43AzCL3k4b2/view?usp=sharing"
+    },
+    {
+        "name": "Aryan Tewari",
+        "position": "Principal, Investment Team",
+        "linkedin": "https://www.linkedin.com/in/aryan-tewari-372170257/",
+        "email": "investmentteam.ugac.iitb@gmail.com",
+        "contact": "9875408858",
+        "photo": "https://drive.google.com/open?id=14yfjvwy4KDkd63GDDNpd3nwN0i2CP53m"
+    },
+    {
+        "name": "Prince Kumar",
+        "position": "Head, Data Analytics and Visualisation Team",
+        "linkedin": "https://www.linkedin.com/in/prince-kumar-880734270/",
+        "email": "heads.davteam@gmail.com",
+        "contact": "6203685770",
+        "photo": "https://drive.google.com/file/d/1QNUHdJZ4616VQtu8d6m2p9OI9TZ2HGfR/view?usp=drivesdk"
+    },
+    {
+        "name": "Aditya Anand Gupta",
+        "position": "Head, Data Analytics and Visualisation Team",
+        "linkedin": "https://www.linkedin.com/in/aditya-anand-gupta-3a7508299/",
+        "email": "heads.davteam@gmail.com",
+        "contact": "9324481748",
+        "photo": "https://drive.google.com/file/d/1vOr2viZRy2b-zjpMF7Uh9EYlygpw_7n-/view?usp=sharing"
+    },
+    {
+        "name": "Parag Ingle",
+        "position": "Institute Secretary International Relations",
+        "linkedin": "https://www.linkedin.com/in/parag-ingle-415941247",
+        "email": "isecir.iitb@gmail.com",
+        "contact": "7219335001",
+        "photo": "https://drive.google.com/open?id=1Xz01_Ykk_KjvtepxAzq5YNwl1UFsCX6x"
+    },
+    {
+        "name": "Abhijat Bharadwaj",
+        "position": "Web Head",
+        "linkedin": "https://www.linkedin.com/in/abhijat-bharadwaj-459b26227",
+        "email": "web.ugac@iitb.ac.in",
+        "contact": "9315457956",
+        "photo": "https://drive.google.com/open?id=1kT5PICSa4Bnfg4YWbxo5N2TLt8tqjsVP"
+    },
+    {
+        "name": "Shrey Aggarwal ",
+        "position": "Web Head",
+        "linkedin": "https://www.linkedin.com/in/shrey-aggarwal-5606a8223     ",
+        "email": "web.ugac@iitb.ac.in",
+        "contact": "8360629019",
+        "photo": ""
     }
 ]

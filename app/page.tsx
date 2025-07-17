@@ -15,9 +15,9 @@ export default function HeroPodcast() {
           <h2 style={{fontFamily:"DT_Grotesk_Display"}} className="text-3xl md:text-5xl font-bold mb-4">
             Our Divisions
           </h2>
-          <p className="text-lg mb-8 text-center">
+          {/* <p className="text-lg mb-8 text-center">
               UGAC is a big community consisting of many sub divisions
-          </p>
+          </p> */}
         </div>
       <ScrollComponent/>
       </section>

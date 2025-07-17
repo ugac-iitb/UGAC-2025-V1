@@ -1,5 +1,5 @@
 import HeroComponent from "@/components/general/HeroComponent";
-import divisionData from "../../../public/data/divisions.json";
+import divisionData from "../../../public/data/clubs.json";
 import DivisionMainComponent from "@/components/Division/DivisionMainComponent";
 
 
@@ -13,14 +13,14 @@ const DivisionPage = async ({params}:{params:Promise<{slug:string}>}) => {
     }
 
     const slug = (await params).slug; 
-    const data = divisionData.find((division: DivisionData) => division.slug === slug) as DivisionData;
+    const data = divisionData.find((division) => division.club_id === slug);
 
     return ( 
         <>
             {data && (
                 <div>
-                    <HeroComponent data={{heading:'Division', subheading:data.name}} />
-                    <DivisionMainComponent clubData={data}/>
+                    <HeroComponent data={{heading:'Division', subheading:data.club_name}} />
+                    <DivisionMainComponent clubData={data} id={data.club_id}/>
                 </div>
             )}
            
