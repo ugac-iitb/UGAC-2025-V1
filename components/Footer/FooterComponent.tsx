@@ -17,7 +17,7 @@ const FooterComponent = () => {
               alt="UGAC Logo"
               width={140}
               height={140}
-              className='filter brightness-0 invert'
+              className=''
             />
           </div>
 
