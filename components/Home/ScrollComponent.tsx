@@ -6,6 +6,7 @@ import DivisionCardsComponent from './DivisionCardsComponent';
 
 const ScrollComponent = () => {
   const scrollRef = useRef(null);
+  const [hover, setHovered] = useState(false);
 
   const scroll = (direction) => {
     if (scrollRef.current) {
@@ -17,22 +18,31 @@ const ScrollComponent = () => {
     }
   };
 
-  const [hover,setHovered] = useState(false);
-
   return (
     <>
       {data && (
-        <div className="relative w-[80%] mx-auto py-6"
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
+        <div
+          className="relative w-[80%] mx-auto py-6"
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
         >
           {/* Left Arrow */}
-          {hover && (<button
-            onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md hover:bg-white transition"
-          >
-            <ChevronLeft size={24} />
-          </button>)}
+          {(hover || typeof window !== 'undefined' && window.innerWidth < 768) && (
+            <button
+              onClick={() => scroll('left')}
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md transition block md:hidden sm:block"
+            >
+              <ChevronLeft size={24} />
+            </button>
+          )}
+          {hover && (
+            <button
+              onClick={() => scroll('left')}
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md transition hidden md:block"
+            >
+              <ChevronLeft size={24} />
+            </button>
+          )}
 
           {/* Scrollable Area */}
           <div
@@ -49,12 +59,22 @@ const ScrollComponent = () => {
           </div>
 
           {/* Right Arrow */}
-          {hover && (<button
-            onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md hover:bg-white transition"
-          >
-            <ChevronRight size={24} />
-          </button>)}
+          {(hover || typeof window !== 'undefined' && window.innerWidth < 768) && (
+            <button
+              onClick={() => scroll('right')}
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md  transition block md:hidden sm:block"
+            >
+              <ChevronRight size={24} />
+            </button>
+          )}
+          {hover && (
+            <button
+              onClick={() => scroll('right')}
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-white/80 backdrop-blur-md rounded-full shadow-md  transition hidden md:block"
+            >
+              <ChevronRight size={24} />
+            </button>
+          )}
         </div>
       )}
     </>
