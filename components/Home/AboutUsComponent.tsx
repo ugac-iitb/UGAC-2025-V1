@@ -1,18 +1,28 @@
+"use client";
 import Image from 'next/image';
 import podcastImage from '../../public/images/hero_img.jpg';
-import UGACImage from '../../public/images/ugac.png';
+import UGACImage from '../../public/images/UGAC V1 illustration.svg';
+import { motion } from 'framer-motion'; 
 
 const AboutUsComponent = () => {
     return ( 
-        <>
-            <section className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 px-6 py-16 lg:px-24 text-white w-[90%] mx-auto bg-white/15 backdrop-blur-lg rounded-2xl shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.02] hover:bg-white/20">
+        <div>
+            <section className="flex flex-col-reverse lg:flex-row items-center justify-between mt-20 gap-8 px-4 py-16 lg:px-16 text-white w-[90%] mx-auto bg-white/15 backdrop-blur-lg rounded-2xl shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.02] hover:bg-white/20">
 
                 {/* Left Content */}
                 <div className="max-w-xl w-full">
-                    <h1 style={{fontFamily:"DT_Grotesk_Display"}} className="text-3xl md:text-[50px] font-extrabold mb-6 leading-tight text-[#7feddf]">
-                        About Us
-                    </h1>
-                    <p className=" mb-8 text-[24px] ">
+                    <motion.h1
+                        style={{ fontFamily: 'Playfair Display' }}
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1, delay: 0.4 }}
+                        className="text-[36px] md:text-2xl lg:text-6xl font-extrabold leading-tight tracking-tight"
+                    >
+                        <span className="block">About Us</span>
+                        {/* <span className="block">Academic Council</span> */}
+                    </motion.h1>
+
+                    <p className=" mb-8 text-[24px] mt-13">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim arcu cursus tincidunt et odio enim aliquam. Gravida augue arcu duis
                     </p>
 
@@ -29,18 +39,18 @@ const AboutUsComponent = () => {
                 </div>
 
                 {/* Right Image */}
-                <div className="relative w-full max-w-2xl">
+                <div className="relative w-full max-w-xl">
                     <Image
                         src={UGACImage}
                         alt="Podcast Host"
-                        className="rounded-xl filter brightness-0 invert"
+                        className="rounded-xl"
                         layout="responsive"
                         // width={700}
                         height={500} // Changed height from 800 to 500
                     />
                 </div>
             </section>
-        </>
+        </div>
     );
 }
  

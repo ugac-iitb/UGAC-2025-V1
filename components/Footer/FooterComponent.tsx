@@ -44,7 +44,7 @@ const FooterComponent = () => {
 
               {/* Credits */}
               <p className="text-[18px] my-5">
-                Developed by <span className="font-semibold">UGAC Web Team</span> with <span className="text-red-500">❤️</span>
+                Developed by <span className="font-semibold">UGAC Web Team and Design Team</span> with <span className="text-red-500">❤️</span>
               </p>
             </div>
             

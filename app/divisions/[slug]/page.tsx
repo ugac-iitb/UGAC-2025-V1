@@ -1,5 +1,6 @@
 import HeroComponent from "@/components/general/HeroComponent";
 import divisionData from "../../../public/data/divisions.json";
+import DivisionMainComponent from "@/components/Division/DivisionMainComponent";
 
 
 const DivisionPage = async ({params}:{params:Promise<{slug:string}>}) => {
@@ -16,7 +17,13 @@ const DivisionPage = async ({params}:{params:Promise<{slug:string}>}) => {
 
     return ( 
         <>
-           {data && (<HeroComponent data={{heading:'Division', subheading:data.name}} />)}
+            {data && (
+                <div>
+                    <HeroComponent data={{heading:'Division', subheading:data.name}} />
+                    <DivisionMainComponent clubData={data}/>
+                </div>
+            )}
+           
         </>
     );
 }
