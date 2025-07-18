@@ -123,7 +123,7 @@
         "designation": "Club Convener",
         "convener_email": "convener.finance.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/shashwat-gupta-60955b330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "convener_photo": ""
+        "convener_photo": "https://drive.google.com/file/d/19qr9IpNTtNQSoMfCPrW_7ahNEAyLEege/view?usp=sharing"
     },
     {
         "club_id": "4",
@@ -177,13 +177,13 @@
         "designation": "Academic Coordinator",
         "convener_email": "enpower@iitb.ac.in",
         "convener_linkedin": "https://www.linkedin.com/in/shivakshi-gupta-7b70562a2/",
-        "convener_photo": "https://drive.google.com/file/d/1qHdvF3br0Seh_ewmNr4WONbgLvK8W8Xw/view?usp=drive_link"
+        "convener_photo": "https://drive.google.com/file/d/1qHdvF3br0Seh_ewmNr4WONbgLvK8W8Xw/view?usp=drivesdk"
     },
     {
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Naitik Kumar Agrawal",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Chemical Engineering, Chemistry)",
         "convener_email": "drc.chem.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/naitik-kumar-agrawal-58663a28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1BRutZXoUoxbtnfkjkhZFcgBk_rCl8bo9"
@@ -192,7 +192,7 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Akshika Jain ",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Economics, SOM, HSS)",
         "convener_email": "drc.ec.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/akshika-jain-a4a191308/",
         "convener_photo": "https://drive.google.com/open?id=1dbLwCHr7Jh29-ForYQCiN7dwKSHRNJLx"
@@ -201,16 +201,16 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Afra I K ",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Civil, CTARA)",
         "convener_email": "drc.ce.iitb@gmail.com",
-        "convener_linkedin": "Afra I K ",
+        "convener_linkedin": "https://www.linkedin.com/in/afra-i-k/",
         "convener_photo": "https://drive.google.com/open?id=1CeOJexjeKOzWo-bMyYPriZLynWfV2pgh"
     },
     {
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Sreesti Sahoo",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Electrical engineering, Syscon)",
         "convener_email": "drc.electrical.iitb@gmail.com",
         "convener_linkedin": "www.linkedin.com/in/sreesti-sahoo-a8a446284",
         "convener_photo": "https://drive.google.com/open?id=1bSQBLgZEcH9OIUnKlfL8GEgQhpvQchU_"
@@ -219,7 +219,7 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Manaswi Goyal",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Mechanical, KCDH)",
         "convener_email": "drc.mech25.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/manaswig/",
         "convener_photo": "https://drive.google.com/open?id=1aAenmxJ-f2P6mN7QxFWPIpLBmLnlkY9R"
@@ -228,7 +228,7 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Hitesh Kumar",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Aerospace, CoEST)",
         "convener_email": "drc.aero.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/hitesh-kumar-94833b294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1-pQjf7RCNjxma3CBKq6i9e-MfjtPbzaW"
@@ -237,7 +237,7 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Tushaar Anoop Jhamtani",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Energy Science and Engineering, Climate studies, ESED)",
         "convener_email": "drc.esed25.iitb@gmail.com",
         "convener_linkedin": "https://in.linkedin.com/in/tushaar-jhamtani-47b494226",
         "convener_photo": "https://drive.google.com/open?id=1KT0yZFafZEk0rQL2LOKatG8_wYbtOPqo"
@@ -246,16 +246,16 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Nikhil Khandelwal",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Metallurgical Engineering & Materials Science, BSBE)",
         "convener_email": "drc.mems25.iitb@gmail.com",
         "convener_linkedin": "www.linkedin.com/in/nikhil-khandelwal-30322a2a3",
-        "convener_photo": "https://drive.google.com/open?id=1xMHmz68ZsyiZ3c5Sz2B2i0y_qGZvLg6N"
+        "convener_photo": "https://drive.google.com/file/d/1uWi9Gs29wCEfS9kppB1MKRDs3-idiUsY/view?usp=sharing"
     },
     {
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Pari Soni",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (IEOR, CSRE)",
         "convener_email": "drc.ieor.iitb@gmail.com",
         "convener_linkedin": "https://www.linkedin.com/in/pari-soni-1487a7333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1u_EOc9F_6Hq6oCcmFzDdwvgZvU3kRlT5"
@@ -264,7 +264,7 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Yash Santosh Jonjale ",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Computer Science & Engineering, C-MInDS)",
         "convener_email": "yashjonjale@cse.iitb.ac.in",
         "convener_linkedin": "https://www.linkedin.com/in/yash-jonjale-iitb",
         "convener_photo": "https://drive.google.com/open?id=1EIZ8EmsMUJ2Vxo6o8vyLut1Dk0caIOtG"
@@ -273,9 +273,9 @@
         "club_id": "4",
         "club_name": "EnPoWER",
         "convener_name": "Dhairya Kantawala",
-        "designation": "Department Research Coordinator",
+        "designation": "Department Research Coordinator (Mathematics, Educational Technology)",
         "convener_email": "drc.mathematics.iitb@gmail.com",
-        "convener_linkedin": "Dhairya Kantawala",
+        "convener_linkedin": "https://www.linkedin.com/in/dhairya-kantawala/ \n",
         "convener_photo": "https://drive.google.com/open?id=136pyVqoga9Ghez7u6kJmyGbAw7K5FrMA"
     },
     {
@@ -353,74 +353,20 @@
     {
         "club_id": "7",
         "club_name": "CCG",
-        "convener_name": "Rishabh Jain",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "http://linkedin.com/in/rishabh-jain-2864262b8",
-        "convener_photo": "https://drive.google.com/open?id=1-WtKHg7b71SN7a1GbjxSfr6hOLOk1uVX"
+        "convener_name": "Aatreyi Bhatia",
+        "designation": "Advisor (CCG)",
+        "convener_email": "aatreyibhatiaaa@gmail.com",
+        "convener_linkedin": "https://www.linkedin.com/in/aatreyi-bhatia-08b6ab24a/ ",
+        "convener_photo": "https://drive.google.com/file/d/1KWpT2OREy4L5NL0FJw5INL4awtYJQ2gL/view?usp=sharing"
     },
     {
         "club_id": "7",
         "club_name": "CCG",
-        "convener_name": "Aditi Nitin Singh",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "http://www.linkedin.com/in/aditisingh-iitb",
-        "convener_photo": "https://drive.google.com/open?id=1g7G6W2I0f3OyZq4XWYnl1jrgQijyDRfi"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Preisha Desai",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "https://www.linkedin.com/in/preisha-desai-508b75205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "convener_photo": "https://drive.google.com/open?id=1m3Ml-xEsbDmae9gtf2zyDITVNSrkp5bb"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Arinjay Nigam",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "https://www.linkedin.com/in/arinjay-nigam-43a946312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "convener_photo": "https://drive.google.com/open?id=1lMr4wgN_Fsn-wkAmP_rc-cEqWBYBLSKA"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Aditya Jaswani",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "https://www.linkedin.com/in/aditya-jaswani-28257b316?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJr6TXYy%2BRmCzbGsPhJtWoA%3D%3D",
-        "convener_photo": "https://drive.google.com/open?id=1gAV5DK2C0Y_G7pODyADAs720ov6xci1H"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Kshitij Chinchanikar",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "https://www.linkedin.com/in/kshitij-chinchanikar-57a650318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "convener_photo": "https://drive.google.com/open?id=1ZoxU_t8d0qUdMopCARCGe1jLDwtXsK8X"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Srishti Poddar",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "http://linkedin.com/in/srishti-poddar-855944260",
-        "convener_photo": "https://drive.google.com/open?id=1NvdXfOSRdXnP9NzBvq1ladVM1sf2hdxC"
-    },
-    {
-        "club_id": "7",
-        "club_name": "CCG",
-        "convener_name": "Aradhya Agrawal",
-        "designation": "Associate Consultant",
-        "convener_email": "",
-        "convener_linkedin": "Aradhya Agrawal",
-        "convener_photo": "https://drive.google.com/open?id=1jRM9vEdsC0N_b3ftkAViL6bwfRogsC55"
+        "convener_name": "Antara Pandey",
+        "designation": "Advisor (CCG)",
+        "convener_email": "pandeyantara.iitb@gmail.com\n",
+        "convener_linkedin": "https://www.linkedin.com/in/antara-pandey-8a57b3252/ ",
+        "convener_photo": "https://drive.google.com/file/d/1PGWXbIPCpLznKdGWqCMWk577mffmWLz6/view?usp=sharing"
     },
     {
         "club_id": "7",
@@ -428,7 +374,7 @@
         "convener_name": "Dhruv Prasad",
         "designation": "Advisor (CCG)",
         "convener_email": "",
-        "convener_linkedin": "Dhruv Pasad",
+        "convener_linkedin": "https://www.linkedin.com/in/dhruv-pasad-277748252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1akuKlYzYSOqAWnRVhF_0gn9YyUmtU4ww"
     },
     {
@@ -504,6 +450,78 @@
         "convener_photo": "https://drive.google.com/open?id=1elN3DXvZfVYvULvWJzVXwrwCarobqsPw"
     },
     {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Rishabh Jain",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "http://linkedin.com/in/rishabh-jain-2864262b8",
+        "convener_photo": "https://drive.google.com/open?id=1-WtKHg7b71SN7a1GbjxSfr6hOLOk1uVX"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Aditi Nitin Singh",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "http://www.linkedin.com/in/aditisingh-iitb",
+        "convener_photo": "https://drive.google.com/open?id=1g7G6W2I0f3OyZq4XWYnl1jrgQijyDRfi"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Preisha Desai",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/preisha-desai-508b75205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "convener_photo": "https://drive.google.com/open?id=1m3Ml-xEsbDmae9gtf2zyDITVNSrkp5bb"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Arinjay Nigam",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/arinjay-nigam-43a946312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "convener_photo": "https://drive.google.com/open?id=1lMr4wgN_Fsn-wkAmP_rc-cEqWBYBLSKA"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Aditya Jaswani",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/aditya-jaswani-28257b316?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJr6TXYy%2BRmCzbGsPhJtWoA%3D%3D",
+        "convener_photo": "https://drive.google.com/open?id=1gAV5DK2C0Y_G7pODyADAs720ov6xci1H"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Kshitij Chinchanikar",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/kshitij-chinchanikar-57a650318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "convener_photo": "https://drive.google.com/open?id=1ZoxU_t8d0qUdMopCARCGe1jLDwtXsK8X"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Srishti Poddar",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "http://linkedin.com/in/srishti-poddar-855944260",
+        "convener_photo": "https://drive.google.com/open?id=1NvdXfOSRdXnP9NzBvq1ladVM1sf2hdxC"
+    },
+    {
+        "club_id": "7",
+        "club_name": "CCG",
+        "convener_name": "Aradhya Agrawal",
+        "designation": "Associate Consultant",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/aradhya-agrawal-b64643315/",
+        "convener_photo": "https://drive.google.com/open?id=1jRM9vEdsC0N_b3ftkAViL6bwfRogsC55"
+    },
+    {
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Arjun Jhunjhunwala",
@@ -534,34 +552,43 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Navya Subba",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/navya-subba-2b316b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "convener_photo": "https://drive.google.com/open?id=1IOb0lWDlZEJBL8EicvEkGRKyj4vk7yd8"
+        "convener_photo": "https://drive.google.com/file/d/1bXs4AQg1Aim9JI4hT5YGD-S7Egtrou7C/view?usp=sharing"
     },
     {
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Disha Nitinkumar Gugale ",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
-        "convener_linkedin": "Disha Gugale",
+        "convener_linkedin": "https://www.linkedin.com/in/disha-gugale-8992a1255/",
         "convener_photo": "https://drive.google.com/open?id=1rW0Gu0s1yLSbjUVC7KeR25I563BsMn1n"
     },
     {
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Aarush Bhatt",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/aarush-bhatt-488069213",
-        "convener_photo": "https://drive.google.com/open?id=11y9Q0u3aKahRNTm5Mn3d3RY13bRl-FXL"
+        "convener_photo": "https://drive.google.com/file/d/1koytKVfOZZt35mexdvff9xVuPkVHPBI2/view?usp=sharing"
+    },
+    {
+        "club_id": "8",
+        "club_name": "Investment Team",
+        "convener_name": "Samay Dora",
+        "designation": "Analyst",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/samay-dora-41543121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "convener_photo": "https://drive.google.com/file/d/1oCtHl-gvcaAN82wtuTUjsdsGw30ZDOwz/view?usp=drivesdk"
     },
     {
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Jeet Mehta",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/thejeetmehta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1AQjSV-xkpbp2LAwr7LudUDxkFtjzA7J8"
@@ -570,7 +597,7 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Om Umekar ",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/om-umekar-1275a7367/",
         "convener_photo": "https://drive.google.com/file/d/1GXeJFUOL849OrlPGQdnbFRqxgvsgZ3BS/view?usp=drive_link"
@@ -579,7 +606,7 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Aditi Verma",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/aditi-verma-065542312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "convener_photo": "https://drive.google.com/open?id=1SQBUEDdhhVVcnsegrcXWRb-v4POxqfsq"
@@ -588,7 +615,7 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Sanvi Gupta",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/sanvigupta/",
         "convener_photo": "https://drive.google.com/file/d/19GB2Tq8PM7P-wkLOPOzHXwmO7zBXMq4b/view?usp=sharing"
@@ -597,7 +624,7 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Kartik Patni",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://in.linkedin.com/in/kartik-patni-68216b365",
         "convener_photo": "https://drive.google.com/drive/folders/1GHwRHnQYtwxsggN6yHFZhk85R0FDRpyd"
@@ -606,10 +633,28 @@
         "club_id": "8",
         "club_name": "Investment Team",
         "convener_name": "Rajit Goyal",
-        "designation": "Analyst(Investment Team)",
+        "designation": "Analyst",
         "convener_email": "",
         "convener_linkedin": "https://www.linkedin.com/in/rajit-goyal-a41537326/",
-        "convener_photo": ""
+        "convener_photo": "https://drive.google.com/file/d/17LEVct9hVOQXzKQOHB3KBYu96zclATZ9/view?usp=sharing"
+    },
+    {
+        "club_id": "8",
+        "club_name": "Investment Team",
+        "convener_name": "Piyush Chaturvedi ",
+        "designation": "Analyst",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/piyush-chaturvedi-6ab054369",
+        "convener_photo": "https://drive.google.com/file/d/1OcqTtJTqyP-bpUyiMa28bMpdLH5Sc4zq/view?usp=drivesdk"
+    },
+    {
+        "club_id": "8",
+        "club_name": "Investment Team",
+        "convener_name": "Ujjwal Singh",
+        "designation": "Analyst",
+        "convener_email": "",
+        "convener_linkedin": "https://www.linkedin.com/in/ujjwal-singh-a92366323/",
+        "convener_photo": "https://drive.google.com/file/d/1Hn3sP7EH1U0za8MKYY9WRu_Z0MffJ83d/view?usp=sharing"
     },
     {
         "club_id": "9",
@@ -635,7 +680,7 @@
         "convener_name": "Rakshana",
         "designation": "Data Analyst",
         "convener_email": "dav.ugac@iitb.ac.in",
-        "convener_linkedin": "",
+        "convener_linkedin": "https://www.linkedin.com/in/rakshana-sundaram05/",
         "convener_photo": "https://drive.google.com/file/d/1PkVvgDzA0H85_yC_ijnl5KIvfzm1b1j5/view?usp=drive_link"
     },
     {
@@ -689,7 +734,7 @@
         "convener_name": "Pranathi Sreeja Meesala",
         "designation": "Member, Web Team",
         "convener_email": "",
-        "convener_linkedin": "pranathi-sreeja-meesala-4809632b2",
+        "convener_linkedin": "https://www.linkedin.com/in/pranathi-sreeja-meesala-4809632b2/",
         "convener_photo": "https://drive.google.com/open?id=1_36sFm_ISCfSDN1xGFvPCkJixdZf9sPe"
     }
 ]
