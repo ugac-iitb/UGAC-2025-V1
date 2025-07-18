@@ -10,7 +10,7 @@ const HeroComponent = () => {
 
       {/* === Background Pattern === */}
       <div className="absolute inset-0 opacity-10 z-0">
-        <Image
+        <Image unoptimized
           src={heroPattern}
           alt="Background pattern"
           fill

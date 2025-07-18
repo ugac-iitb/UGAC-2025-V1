@@ -30,7 +30,7 @@ const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
       <div className="w-full md:w-[30%]">
         {/* Logo */}
        <div className="w-full aspect-square relative mb-6">
-        <Image
+        <Image unoptimized
           src={`/images/clubs/${clubData.club_id}.png`}
           alt={clubData.club_name}
           fill

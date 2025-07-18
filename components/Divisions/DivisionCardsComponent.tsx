@@ -22,7 +22,7 @@ const DivisionCardsComponent = ({ data }: { data: any }) => {
       {/* Image */}
       <div className="relative w-full h-[230px] border-b-4 border-[#fca311] rounded-t-xl overflow-hidden">
         <Link href={`/divisions/${data.club_id}`} className="absolute inset-0 flex items-center justify-center">
-          <Image
+          <Image unoptimized
             src={`/images/clubs/${data.club_id}.png`}
             alt={data.club_name}
             fill

@@ -12,7 +12,7 @@ const FooterComponent = () => {
         <div className="flex flex-col md:flex-row justify-between items-center border-b-2 border-[#14213d] pb-6 gap-6">
           {/* Logo */}
           <div className="flex items-center justify-center md:justify-start">
-            <Image
+            <Image unoptimized
               src={UGACLogo}
               alt="UGAC Logo"
               width={140}
