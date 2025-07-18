@@ -1,7 +1,7 @@
 'use client';
 import TeamCardsComponent from "./TeamCardsComponent";
 
-const ContactComponent = ({ clubHeads, clubConveners }) => {
+const ContactComponent = ({ clubHeads, clubConveners }: { clubHeads: any; clubConveners: any }) => {
   const managerCards = [];
   clubHeads = clubHeads[0];
 
@@ -27,7 +27,7 @@ const ContactComponent = ({ clubHeads, clubConveners }) => {
     });
   }
 
-  const convenerCards = clubConveners?.map((convener) => {
+  const convenerCards = clubConveners?.map((convener: any) => {
     const name = convener.convener_name.trim();
     return {
       name,
@@ -57,7 +57,7 @@ const ContactComponent = ({ clubHeads, clubConveners }) => {
             Conveners
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-10">
-            {convenerCards.map((person, index) => (
+            {convenerCards.map((person:any, index:any) => (
               <TeamCardsComponent key={index} data={person} />
             ))}
           </div>

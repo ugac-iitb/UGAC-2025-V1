@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Star, Book, BookOpenCheck } from 'lucide-react';
 
-const HeroComponent = ({ data }) => {
+const HeroComponent = ({ data }:{ data:any }) => {
   return (
     <section className="relative overflow-hidden flex flex-col items-center justify-center w-[90%] md:w-[80%] mx-auto mt-10 text-white text-center px-4 py-28 md:py-40 border-b-4 border-[#fca311]">
 

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const DivisionCardsComponent = ({ data }) => {
+const DivisionCardsComponent = ({ data }:{ data :any}) => {
   return (
     <div
       className={`

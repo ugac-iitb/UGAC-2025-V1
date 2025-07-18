@@ -15,7 +15,7 @@ const categories = [
   { name: 'Resources', id: 3 },
 ];
 
-const DivisionMainComponent = ({ clubData,id }) => {
+const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
   const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
   const filteredResources = resources.filter((val) => val.club_id == id);
   const filteredClubHeads = clubHeads.filter((val) => val.club_id == id);
