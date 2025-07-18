@@ -4,7 +4,7 @@ import TeamCardsComponent from "./TeamCardsComponent";
 const ContactComponent = ({ clubHeads, clubConveners }: { clubHeads: any; clubConveners: any }) => {
   const managerCards = [];
   clubHeads = clubHeads[0];
-  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-IITB' : '';
 
   if (clubHeads?.manager_1_name) {
     const name = clubHeads.manager_1_name.trim();

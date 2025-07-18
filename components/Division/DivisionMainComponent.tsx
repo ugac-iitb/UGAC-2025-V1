@@ -21,7 +21,7 @@ const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
   const filteredClubHeads = clubHeads.filter((val) => val.club_id == id);
   const filteredClubConveners = clubConv.filter((val) => val.club_id == id);
 
-  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-IITB' : '';
 
   console.log(filteredClubConveners);
   console.log(filteredClubHeads)

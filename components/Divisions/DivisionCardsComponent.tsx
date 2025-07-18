@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const DivisionCardsComponent = ({ data }: { data: any }) => {
   const [hovered, setHovered] = useState(false);
-  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-IITB' : '';
 
   return (
     <div

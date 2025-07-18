@@ -1,6 +1,6 @@
 'use client';
 import TeamCardsComponent from './TeamCardsComponent';
-const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-IITB' : '';
 // const image = `${basePath}/images/team/${trimmedName}.png`;
 
 
@@ -26,6 +26,9 @@ const TeamGridComponent = ({ teamData }: { teamData: any[] }) => {
 
   const transformData = (person: any) => {
   const trimmedName = person.name.trim();
+
+
+  console.log(`${basePath}/images/team/${trimmedName}.png`,);
   return {
     name: trimmedName,
     image: `${basePath}/images/team/${trimmedName}.png`,
@@ -34,6 +37,7 @@ const TeamGridComponent = ({ teamData }: { teamData: any[] }) => {
     email: person.email?.trim() || '',
   };
 };
+
 
   return (
     <div className="space-y-24 px-4 sm:px-6 lg:px-20 py-16">

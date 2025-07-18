@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const DivisionCardsComponent = ({ data }:{ data :any}) => {
-  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-IITB' : '';
   return (
     <div
       className={`
