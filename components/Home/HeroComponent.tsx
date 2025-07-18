@@ -9,7 +9,7 @@ const HeroComponent = () => {
     <section className="relative overflow-hidden flex flex-col items-center justify-center text-white text-center px-4 py-28 md:py-40 w-full ">
 
       {/* === Background Pattern === */}
-      <div className="absolute inset-0 opacity-10 z-0">
+      {/* <div className="absolute inset-0 opacity-10 z-0">
         <Image unoptimized
           src={heroPattern}
           alt="Background pattern"
@@ -17,7 +17,7 @@ const HeroComponent = () => {
           className="object-cover"
           priority
         />
-      </div>
+      </div> */}
 
       {/* === Floating Icons (Only on md+) === */}
       <div className="hidden md:block absolute inset-0 pointer-events-none z-10">
