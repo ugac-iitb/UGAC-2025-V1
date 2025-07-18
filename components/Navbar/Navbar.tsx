@@ -25,7 +25,7 @@ const NavbarComponent = () => {
       >
         {/* Logo */}
         <div className="flex items-center space-x-4">
-          <Image
+          <Image unoptimized
             src={ugacLogo}
             alt="UGAC Logo"
             height={120}

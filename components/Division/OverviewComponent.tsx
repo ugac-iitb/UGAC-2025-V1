@@ -2,7 +2,7 @@
 
 import { Mail, Instagram, Linkedin } from 'lucide-react';
 
-const OverviewComponent = ({ overview, linkedin, mail, instagram }) => {
+const OverviewComponent = ({ overview, linkedin, mail, instagram }:{ overview:any, linkedin:any, mail:any, instagram:any }) => {
   console.log(instagram)
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col gap-4 p-4 md:p-4 rounded-2xl">

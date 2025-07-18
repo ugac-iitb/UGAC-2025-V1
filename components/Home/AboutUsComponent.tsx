@@ -41,7 +41,7 @@ const AboutUsComponent = () => {
 
                 {/* Right Image */}
                 <div className="relative w-full max-w-xl">
-                    <Image
+                    <Image unoptimized
                         src={UGACImage}
                         alt="Podcast Host"
                         className="rounded-xl"

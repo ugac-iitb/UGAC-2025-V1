@@ -28,7 +28,7 @@ const DivisonComponent = () => {
                                 hover:bg-white/5 rounded-xl"
                         >
                             <Link href={`/divisions/${division.slug}`} >
-                                <Image 
+                                <Image unoptimized 
                                     src={division.logo}
                                     alt={division.name}
                                     height={200}

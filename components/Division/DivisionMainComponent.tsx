@@ -15,7 +15,7 @@ const categories = [
   { name: 'Resources', id: 3 },
 ];
 
-const DivisionMainComponent = ({ clubData,id }) => {
+const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
   const [selectedCategory, setSelectedCategory] = useState(categories[0].id);
   const filteredResources = resources.filter((val) => val.club_id == id);
   const filteredClubHeads = clubHeads.filter((val) => val.club_id == id);
@@ -30,7 +30,7 @@ const DivisionMainComponent = ({ clubData,id }) => {
       <div className="w-full md:w-[30%]">
         {/* Logo */}
        <div className="w-full aspect-square relative mb-6">
-        <Image
+        <Image unoptimized
           src={`/images/clubs/${clubData.club_id}.png`}
           alt={clubData.club_name}
           fill

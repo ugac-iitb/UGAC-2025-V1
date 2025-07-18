@@ -23,7 +23,7 @@ const TeamCardsComponent = ({ data }: { data: TeamCardData }) => {
       {/* Profile Image */}
       <div className="flex justify-center">
         <div className="relative w-[200px] sm:w-[240px] md:w-[280px] aspect-square rounded-full border-4 border-[#fca311] overflow-hidden">
-          <Image
+          <Image unoptimized
             src={imgSrc}
             alt={name}
             fill

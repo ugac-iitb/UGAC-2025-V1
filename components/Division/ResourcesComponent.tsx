@@ -1,6 +1,7 @@
 'use client'
 
-const ResourcesComponent = ({filteredResources}) => {
+const ResourcesComponent = ({filteredResources}:{filteredResources:any}) => {
+
     return ( 
         <div className="py-12 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                 {filteredResources.map((resource: any, idx: number) => (

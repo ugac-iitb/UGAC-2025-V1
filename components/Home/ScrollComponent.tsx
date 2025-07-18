@@ -5,10 +5,10 @@ import data from '../../public/data/clubs.json';
 import DivisionCardsComponent from './DivisionCardsComponent';
 
 const ScrollComponent = () => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const [hover, setHovered] = useState(false);
 
-  const scroll = (direction) => {
+  const scroll = (direction:any) => {
     if (scrollRef.current) {
       const scrollAmount = 320; // width of card + gap
       scrollRef.current.scrollBy({
