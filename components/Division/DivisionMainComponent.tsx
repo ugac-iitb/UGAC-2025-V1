@@ -59,7 +59,7 @@ const DivisionMainComponent = ({ clubData,id }) => {
 
       {/* Content Area */}
       <div className="flex-1 flex flex-col gap-4 pt-0">
-        <div className="bg-[#2c3e5c] rounded-xl overflow-hidden p-6">
+        <div className="bg-[#2c3e5c] rounded-xl overflow-hidden p-2 md:p-6">
           {selectedCategory === 1 && (
             <OverviewComponent overview={clubData.description} linkedin={clubData.linkedin} instagram={clubData.Instagram} mail={clubData.mail}/>
           )}
