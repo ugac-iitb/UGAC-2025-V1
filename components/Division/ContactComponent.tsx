@@ -4,12 +4,13 @@ import TeamCardsComponent from "./TeamCardsComponent";
 const ContactComponent = ({ clubHeads, clubConveners }: { clubHeads: any; clubConveners: any }) => {
   const managerCards = [];
   clubHeads = clubHeads[0];
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
 
   if (clubHeads?.manager_1_name) {
     const name = clubHeads.manager_1_name.trim();
     managerCards.push({
       name,
-      image: `/images/managers/${name}.png`,
+      image: `${basePath}/images/managers/${name}.png`,
       role: clubHeads.manager_1_position,
       linkedin: clubHeads.manager_1_linkedin,
       email: clubHeads.manager_1_email,
@@ -20,7 +21,7 @@ const ContactComponent = ({ clubHeads, clubConveners }: { clubHeads: any; clubCo
     const name = clubHeads.manager_2_name.trim();
     managerCards.push({
       name,
-      image: `/images/managers/${name}.png`,
+      image: `${basePath}/images/managers/${name}.png`,
       role: clubHeads.manager_2_position,
       linkedin: clubHeads.manager_2_linkedin,
       email: clubHeads.manager_2_email,
@@ -31,7 +32,7 @@ const ContactComponent = ({ clubHeads, clubConveners }: { clubHeads: any; clubCo
     const name = convener.convener_name.trim();
     return {
       name,
-      image: `/images/conveners/${name}.png`,
+      image: `${basePath}/images/conveners/${name}.png`,
       role: convener.designation,
       linkedin: convener.convener_linkedin,
       email: convener.convener_email,

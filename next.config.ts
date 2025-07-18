@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
     output: 'export',
-    basePath: '/UGAC-IITB', // e.g. /ugac-2025-v1
-    assetPrefix: '/UGAC-IITB',
+    basePath: isProd ? '/UGAC-2025-V1' : '',
+  assetPrefix: isProd ? '/UGAC-2025-V1' : '',
     typescript: {
       // !! WARN !!
       // Dangerously allow production builds to successfully complete even if

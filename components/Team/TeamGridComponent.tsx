@@ -1,5 +1,8 @@
 'use client';
 import TeamCardsComponent from './TeamCardsComponent';
+const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+// const image = `${basePath}/images/team/${trimmedName}.png`;
+
 
 const fallbackImage = '/images/temp.png';
 
@@ -25,7 +28,7 @@ const TeamGridComponent = ({ teamData }: { teamData: any[] }) => {
   const trimmedName = person.name.trim();
   return {
     name: trimmedName,
-    image: `/images/team/${trimmedName}.png`,
+    image: `${basePath}/images/team/${trimmedName}.png`,
     role: person.position.trim(),
     linkedin: person.linkedin?.trim() || '',
     email: person.email?.trim() || '',

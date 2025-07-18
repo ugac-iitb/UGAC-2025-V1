@@ -21,6 +21,8 @@ const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
   const filteredClubHeads = clubHeads.filter((val) => val.club_id == id);
   const filteredClubConveners = clubConv.filter((val) => val.club_id == id);
 
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
+
   console.log(filteredClubConveners);
   console.log(filteredClubHeads)
 
@@ -31,7 +33,7 @@ const DivisionMainComponent = ({ clubData,id }:{ clubData:any,id:any }) => {
         {/* Logo */}
        <div className="w-full aspect-square relative mb-6">
         <Image unoptimized
-          src={`/images/clubs/${clubData.club_id}.png`}
+          src={`${basePath}/images/clubs/${clubData.club_id}.png`}
           alt={clubData.club_name}
           fill
           className="object-contain p-6 pt-0"

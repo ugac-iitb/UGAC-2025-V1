@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const DivisionCardsComponent = ({ data }:{ data :any}) => {
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
   return (
     <div
       className={`
@@ -16,7 +17,7 @@ const DivisionCardsComponent = ({ data }:{ data :any}) => {
      <div className="relative w-full h-[230px] overflow-hidden">
         <Link href={`/divisions/${data.club_id}`} className="absolute inset-0 flex items-center justify-center">
           <Image unoptimized
-            src={`/images/clubs/${data.club_id}.png`}
+            src={`${basePath}/images/clubs/${data.club_id}.png`}
             alt={data.club_name}
             fill
             className="object-contain rounded-t-xl p-6"

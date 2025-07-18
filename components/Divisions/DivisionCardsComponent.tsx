@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const DivisionCardsComponent = ({ data }: { data: any }) => {
   const [hovered, setHovered] = useState(false);
+  const basePath = process.env.NODE_ENV === 'production' ? '/UGAC-2025-V1' : '';
 
   return (
     <div
@@ -23,7 +24,7 @@ const DivisionCardsComponent = ({ data }: { data: any }) => {
       <div className="relative w-full h-[230px] border-b-4 border-[#fca311] rounded-t-xl overflow-hidden">
         <Link href={`/divisions/${data.club_id}`} className="absolute inset-0 flex items-center justify-center">
           <Image unoptimized
-            src={`/images/clubs/${data.club_id}.png`}
+            src={`${basePath}/images/clubs/${data.club_id}.png`}
             alt={data.club_name}
             fill
             className="object-contain rounded-t-xl p-6"
