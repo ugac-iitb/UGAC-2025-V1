@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useState } from 'react';
-import { LinkedinIcon, Mail } from 'lucide-react';
+import { Contact, LinkedinIcon, Mail, Phone } from 'lucide-react';
 
 const fallbackImage = '/images/temp.png';
 
@@ -10,10 +10,11 @@ interface TeamCardData {
   role: string;
   linkedin?: string;
   email?: string;
+  contact?: string;
 }
 
 const TeamCardsComponent = ({ data }: { data: TeamCardData }) => {
-  const { name, image, role, linkedin, email } = data;
+  const { name, image, role, linkedin, email,contact } = data;
   const [imgSrc, setImgSrc] = useState(image);
 
   return (
@@ -48,6 +49,16 @@ const TeamCardsComponent = ({ data }: { data: TeamCardData }) => {
           <a href={`mailto:${email}`} aria-label="Email">
             <Mail className="hover:text-white transition" />
           </a>
+        )}
+        {contact && (
+          <div className="relative group">
+            <a href={`tel:${contact}`} aria-label="Contact Number">
+              <Phone className="hover:text-white transition" />
+            </a>
+            <span className="absolute left-1/2 -translate-x-1/2 mt-2 w-max px-2 py-1 rounded bg-black/80 text-white text-xs opacity-0 group-hover:opacity-100 transition pointer-events-none z-10">
+              {contact}
+            </span>
+          </div>
         )}
       </div>
     </div>

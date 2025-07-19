@@ -28,13 +28,14 @@ const TeamGridComponent = ({ teamData }: { teamData: any[] }) => {
   const trimmedName = person.name.trim();
 
 
-  console.log(`${basePath}/images/team/${trimmedName}.png`,);
+  // console.log(`${basePath}/images/team/${trimmedName}.png`,);
   return {
     name: trimmedName,
     image: `${basePath}/images/team/${trimmedName}.png`,
     role: person.position.trim(),
     linkedin: person.linkedin?.trim() || '',
     email: person.email?.trim() || '',
+    contact:person.contact?.trim() || ''
   };
 };
 
