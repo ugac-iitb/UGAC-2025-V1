@@ -21,4 +21,4 @@ if __name__ == '__main__':
     # if len(sys.argv) != 3:
     #     print("Usage: python csv_to_json.py input.csv output.json")
     # else:
-    csv_to_json('./public/data/club_conveners.csv', './public/data/club_conveners.json')
+    csv_to_json('./public/data/resources.csv', './public/data/resources.json')
